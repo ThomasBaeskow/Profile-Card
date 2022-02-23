@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    background-image: url("./rick-sanchez.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 480px;
+    border: 3px solid white;
+    position: relative;
+    top: 20px;
+    
+}
+
+.rick-box {
+    background-color: white;
+    height: 45px;
+    width: 105px;
+    border: 3px solid green;
+    opacity: 0.6;
+    border-radius: 45%;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 55px;
+    right: 90px;
+    
+    
+}
+
+.sanchez-box {
+    background-color: white;
+    height: 45px;
+    width: 105px;
+    border: 3px solid green;
+    opacity: 0.6;
+    border-radius: 45%;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 115px;
+    right: 195px;
+}
+
+.rick-box div {
+    position: relative;
+    top: 10px;
+}
+
+.sanchez-box div {
+    position: relative;
+    top: 10px;
+}
+
+div {
+    
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    
+}
